@@ -21,7 +21,7 @@ const MainPage = () => {
   return (
     <div className='app-wrapper'>
       <h1>Cine por la memoria</h1>
-      <h3>Películas que protegen la memoria al alcance de un solo click</h3>
+      <h3>Películas que protegen la memoria al alcance de un solo click*</h3>
       <PopupButton id='leOD4oQW' className='add-movie'>
         ¡Agregá tu película!
       </PopupButton>
@@ -38,6 +38,7 @@ const MainPage = () => {
             ))
           : 'No hay películas para mostrar'}
       </div>
+      <p className='disclaimer'><i>*Esta web no aloja ni sube ningún contenido. Solo recopila enlaces públicos a películas argentinas disponibles en redes y plataformas. Si es titular de derechos y desea solicitar la remoción de un enlace, contáctenos a través del formulario</i></p>
     </div>
   );
 };

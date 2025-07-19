@@ -15,6 +15,21 @@ export const movieList = [
     img: '/static/images/la_historia_oficial.webp',
   },
   {
+  name: 'Infancia clandestina',
+  url: 'https://ok.ru/video/5022673996312',
+  img: '/static/images/infancia_clandestina.jpeg',
+},
+  {
+    name: 'Argentina 1985',
+    url: 'https://ok.ru/video/6946765540056',
+    img: '/static/images/argentina_1985.webp',
+  },
+    {
+    name: 'Pasaje de vida',
+    url: 'https://play.cine.ar/INCAA/produccion/2496',
+    img: '/static/images/pasaje_de_vida.jpeg',
+  },
+  {
     name: 'Operación México, una pacto de amor',
     url: 'https://ok.ru/video/4698434374234',
     img: '/static/images/operacion_mexico.jpeg',
@@ -23,6 +38,16 @@ export const movieList = [
     name: 'Televisión por la identidad',
     url: 'https://youtu.be/D3_eALxvQDA?si=U6eOOKwOoPhtvjgE',
     img: '/static/images/tv_por_la_identidad.jpg',
+  },
+    {
+    name: 'Kamtchatka',
+    url: 'https://ok.ru/video/5291381754392',
+    img: '/static/images/kamtchatka.webp',
+  },
+    {
+    name: 'Pañuelos para la historia',
+    url: 'https://play.cine.ar/INCAA/produccion/7526',
+    img: '/static/images/pañuelos.jpeg',
   },
   {
     name: 'La amiga',
@@ -33,11 +58,6 @@ export const movieList = [
     name: 'El censor',
     url: 'https://ok.ru/video/3308729862886',
     img: '/static/images/el_censor.jpg',
-  },
-  {
-    name: 'Infancia clandestina',
-    url: 'https://ok.ru/video/5022673996312',
-    img: '/static/images/infancia_clandestina.jpeg',
   },
   {
     name: 'Sinfonía para Ana',
@@ -53,16 +73,6 @@ export const movieList = [
     name: 'El premio',
     url: 'https://ok.ru/video/1333481245274',
     img: '/static/images/el_premio.jpeg',
-  },
-  {
-    name: 'Kamtchatka',
-    url: 'https://ok.ru/video/5291381754392',
-    img: '/static/images/kamtchatka.webp',
-  },
-  {
-    name: 'Argentina 1985',
-    url: 'https://ok.ru/video/6946765540056',
-    img: '/static/images/argentina_1985.webp',
   },
   {
     name: 'Hermanas',
@@ -94,20 +104,25 @@ export const movieList = [
     url: 'https://ok.ru/video/1380774120026',
     img: '/static/images/eva_y_lola.jpg',
   },
+    {
+    name: 'Hebe',
+    url: 'https://youtu.be/3olYriodhGg?si=AxJHWDX39CyGpMG1',
+    img: '/static/images/hebe.jpg',
+  },
   {
     name: 'Los días de Junio',
     url: 'https://ok.ru/video/4450873051801',
     img: '/static/images/los_dias_de_junio.jpeg',
   },
   {
+    name: 'Padre',
+    url: 'https://www.youtube.com/watch?v=-0B-fB42zCI',
+    img: '/static/images/padre.jpg',
+  },
+  {
     name: 'M',
     url: 'https://play.cine.ar/INCAA/produccion/759',
     img: '/static/images/m.jpeg',
-  },
-  {
-    name: 'Pañuelos para la historia',
-    url: 'https://play.cine.ar/INCAA/produccion/7526',
-    img: '/static/images/pañuelos.jpeg',
   },
   {
     name: 'Sonata en sí menor',
@@ -133,6 +148,11 @@ export const movieList = [
     name: '70 y pico',
     url: 'https://play.cine.ar/INCAA/produccion/5467',
     img: '/static/images/70_y_pico.jpeg',
+  },
+    {
+    name: 'ESMA, la voz de los sobrevivientes',
+    url: 'https://www.youtube.com/watch?v=yTRc6l7PMVs&pp=ygUOZXNtYSBlbmN1ZW50cmSBwkJzQkBhyohjO8%3D',
+    img: '/static/images/esma_2.jpg',
   },
   {
     name: 'Un muro de silencio',
@@ -163,11 +183,6 @@ export const movieList = [
     name: 'La casa de Arguello',
     url: 'https://play.cine.ar/INCAA/produccion/6148',
     img: '/static/images/la_casa_de_arguello.jpeg',
-  },
-  {
-    name: 'Pasaje de vida',
-    url: 'https://play.cine.ar/INCAA/produccion/2496',
-    img: '/static/images/pasaje_de_vida.jpeg',
   },
   {
     name: 'Jorge Novak',

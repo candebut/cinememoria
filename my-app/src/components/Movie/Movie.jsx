@@ -30,7 +30,7 @@ const Movie = ({ movie, index }) => {
     >
       <img src={movie.img} alt={`${movie.name} poster`} />
       <div class='movie-box-overlay'>
-        <div className='movie-box-text'>{`Hacé click para ver "${movie.name}" gratis`}</div>
+        <div className='movie-box-text'>{`Ver "${movie.name}" online`}</div>
       </div>
     </motion.div>
   );

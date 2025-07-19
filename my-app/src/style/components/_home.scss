@@ -38,6 +38,17 @@ body {
   font-family: "Playwrite";
   color: black;
   position: relative;
+  height: 100vh;
+  overflow: hidden;
+
+  .disclaimer {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    text-align: center;
+  }
 
   .input-box {
     margin: 30px;
@@ -64,6 +75,8 @@ body {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  max-height: 68vh;
+  overflow-y: auto;
 }
 
 .movie-box {
@@ -91,12 +104,17 @@ body {
 
 .movie-box-text {
   font-family: 'Bebas';
-  font-size: 38px;
-  color: rgb(87, 154, 255);
+  font-size: 24px;
+  color: white;
   position: absolute;
   text-align: center;
   opacity: 0;
-  text-shadow: 1px 1px 0px rgb(0, 0, 0);
+  text-shadow:
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+  // text-shadow: 1px 1px 0px rgb(0, 0, 0);
   // text-shadow: rgb(171, 162, 162) 1px 0px 0px, rgb(171, 162, 162) 0.540302px 0.841471px 0px, rgb(171, 162, 162) -0.416147px 0.909297px 0px, rgb(171, 162, 162) -0.989992px 0.14112px 0px, rgb(171, 162, 162) -0.653644px -0.756802px 0px, rgb(171, 162, 162) 0.283662px -0.958924px 0px, rgb(171, 162, 162) 0.96017px -0.279415px 0px;
 }
 
